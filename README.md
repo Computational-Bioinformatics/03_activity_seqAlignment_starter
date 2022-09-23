@@ -92,6 +92,8 @@ Results for job mafft-I20220922-215435-0219-95152536-p2m
 
 Complete your reflections questions at the end of this part.
 
+---
+
 ### Part 3
 
 We will now translate the DNA sequence data to proteins and then perform another alignment.
