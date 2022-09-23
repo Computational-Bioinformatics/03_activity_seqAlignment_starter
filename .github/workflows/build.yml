@@ -29,8 +29,8 @@ jobs:
             fetch-depth: 0
         # Run the mdl linting tool
         # Refers to .mdlrc file in repository
-        - name: Run Markdown Linting
-          uses: actionshub/markdownlint@main
+        # - name: Run Markdown Linting
+        #   uses: actionshub/markdownlint@main
         # Setup Python for the current language version
         - name: Setup Python ${{ matrix.python-version }}
           if: always()
@@ -42,17 +42,17 @@ jobs:
           if: always()
           run: |
             pip install -U pip
-        # Install biopython
-        - name: Install biopython
-          if: always()
-          run: |
-            pip install -U biopython
-        # Run the Python program
-        - name: Run Python Program
-          if: always()
-          run: |
-            cd src
-            python demoProgram.py
+        # # Install biopython
+        # - name: Install biopython
+        #   if: always()
+        #   run: |
+        #     pip install -U biopython
+        # # Run the Python program
+        # - name: Run Python Program
+        #   if: always()
+        #   run: |
+        #     cd src
+        #     python demoProgram.py
         # Run GatorGrader: see config/gatorgrader.yml
         - name: Run GatorGrader
           if: always()
