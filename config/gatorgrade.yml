@@ -28,8 +28,8 @@
 #       exact: true
 # --> check the technical writing for various characteristics
 - writing/reflections.md:
-  # - description: Ensure that the reflections.md file exists in the writing/ directory
-  #   check: ConfirmFileExists
+  - description: Ensure that the reflections.md file exists in the writing/ directory
+    check: ConfirmFileExists
   # - description: Write a minimum number of meaningful words in the reflections
   #   check: CountFileWords
   #   options:
