@@ -106,6 +106,8 @@ We will now translate the DNA sequence data to proteins and then perform another
 
 Complete your reflections questions at the end of this part.
 
+---
+
 ## Reflection
 
 Once you have finished a Part of your work, you are invited to respond to the questions in the File `writing/reflections.md`. Please be sure that you use Markdown where necessary for formatting.
