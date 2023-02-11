@@ -4,12 +4,6 @@ This repository contains information about the Bioinformatics activity deliverab
 This assignment invites students to complete an experiment in sequence alignment by 
 following steps and then writing responses to questions.
 
-## Dates
-
-Handed out: 23 Sept 2022
-
-Due: 26 Sept 2022
-
 ## Objectives
 
 * To gain experience in using free online tools
